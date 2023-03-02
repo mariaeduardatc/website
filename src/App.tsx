@@ -29,7 +29,6 @@ export function App(){
         <Map />
         <Projects />
         <Mentors />
-        <Interview />
         <Footer />
 
         <GlobalStyle />
