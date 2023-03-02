@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "/personal_web/static/js/main.a0a843f5.js",
-    "static/media/zumbi.gif": "/personal_web/static/media/zumbi.c4b07bdc6bc657cee74e.gif",
-    "static/media/background1.jpg": "/personal_web/static/media/background1.8829679154e1d0d0215f.jpg",
-    "static/media/TP1.jpg": "/personal_web/static/media/TP1.538f8b2918113dbb7059.jpg",
-    "static/media/SK2.jpg": "/personal_web/static/media/SK2.9926265ded246da17c88.jpg",
-    "static/media/SK3.JPG": "/personal_web/static/media/SK3.bf875d4ad9ff76b2dd93.JPG",
-    "static/media/pokemon.gif": "/personal_web/static/media/pokemon.ab84839b6d254643c537.gif",
-    "static/media/TP2.jpg": "/personal_web/static/media/TP2.567f2902db5989c11310.jpg",
-    "static/media/background2.jpg": "/personal_web/static/media/background2.1f1823519e238d2ac101.jpg",
-    "static/media/SF1.JPG": "/personal_web/static/media/SF1.09f2e081c5fb4920cd94.JPG",
-    "static/media/map_t.png": "/personal_web/static/media/map_t.f1d89f05801360da9fff.png",
-    "static/media/SF3.JPG": "/personal_web/static/media/SF3.b84a73f476a386f10259.JPG",
-    "static/media/ios.gif": "/personal_web/static/media/ios.e63f8e1147a4bd5053bd.gif",
-    "static/media/perfil.jpg": "/personal_web/static/media/perfil.dfa1a6d709de76a02efc.jpg",
-    "index.html": "/personal_web/index.html",
-    "main.a0a843f5.js.map": "/personal_web/static/js/main.a0a843f5.js.map"
+    "main.js": "/website/static/js/main.9e05a4c2.js",
+    "static/media/zumbi.gif": "/website/static/media/zumbi.c4b07bdc6bc657cee74e.gif",
+    "static/media/background1.jpg": "/website/static/media/background1.8829679154e1d0d0215f.jpg",
+    "static/media/TP1.jpg": "/website/static/media/TP1.538f8b2918113dbb7059.jpg",
+    "static/media/SK2.jpg": "/website/static/media/SK2.9926265ded246da17c88.jpg",
+    "static/media/SK3.JPG": "/website/static/media/SK3.bf875d4ad9ff76b2dd93.JPG",
+    "static/media/pokemon.gif": "/website/static/media/pokemon.ab84839b6d254643c537.gif",
+    "static/media/TP2.jpg": "/website/static/media/TP2.567f2902db5989c11310.jpg",
+    "static/media/background2.jpg": "/website/static/media/background2.1f1823519e238d2ac101.jpg",
+    "static/media/SF1.JPG": "/website/static/media/SF1.09f2e081c5fb4920cd94.JPG",
+    "static/media/map_t.png": "/website/static/media/map_t.f1d89f05801360da9fff.png",
+    "static/media/SF3.JPG": "/website/static/media/SF3.b84a73f476a386f10259.JPG",
+    "static/media/ios.gif": "/website/static/media/ios.e63f8e1147a4bd5053bd.gif",
+    "static/media/perfil.jpg": "/website/static/media/perfil.dfa1a6d709de76a02efc.jpg",
+    "index.html": "/website/index.html",
+    "main.9e05a4c2.js.map": "/website/static/js/main.9e05a4c2.js.map"
   },
   "entrypoints": [
-    "static/js/main.a0a843f5.js"
+    "static/js/main.9e05a4c2.js"
   ]
 }
