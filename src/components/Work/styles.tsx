@@ -30,7 +30,9 @@ export const ImageArea = styled.div`
         img{
             width: 30vw;
             height: 30vh;
+            object-fit: cover;
             margin-bottom: 2vh;
+            border-radius: 50px;
         }
     }
 
