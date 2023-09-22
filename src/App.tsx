@@ -1,14 +1,14 @@
 import { About } from './components/About';
 import { Header } from './components/Header';
-import { Home } from './components/Home';
-import { Motto } from './components/Motto';
 import { Map } from './components/Map';
+import { Hero } from './components/Hero';
 import { GlobalStyle } from './styles/global';
 import { Projects } from './components/Projects';
 import { Mentors } from './components/Mentors';
 import { Interview } from './components/Interview';
 import { Footer } from './components/Footer';
 import { useEffect } from 'react';
+import { Work } from './components/Work';
 
 
 export function App(){
@@ -23,11 +23,11 @@ export function App(){
     return(
         <>
         <Header />
-        <Home />
-        <Motto />
+        <Hero />
         <About />
-        <Map />
-        <Projects />
+        <Work />
+        {/* <Map />
+        <Projects /> */}
         <Mentors />
         <Footer />
 

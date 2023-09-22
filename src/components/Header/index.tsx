@@ -1,4 +1,5 @@
 import { Container, Content, Options } from "./styles";
+import { CiBrightnessDown } from "react-icons/ci"
 
 
 export function Header(){
@@ -27,7 +28,7 @@ export function Header(){
                 </a>
                 
                 <Options>
-                    <a href="#Home">home.</a>
+                    <a href="#Hero">home.</a>
                     <a href="#About">about.</a>
                     <a href="#Projects">projects.</a>
 
@@ -36,12 +37,12 @@ export function Header(){
                     </a>
                 </Options>
                 
-                <button id="darkmode" 
+                <div id="darkmode" 
                 onClick = {() => 
                 {
                     if (window.localStorage.getItem('dark_mode')) {deactivateDarkMode()} 
                     else {activateDarkMode()}
-                }}>Dark Mode</button>
+                }}><CiBrightnessDown /></div>
             </Content>
         </Container>
     )

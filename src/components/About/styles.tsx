@@ -2,15 +2,17 @@ import styled from "styled-components"
 
 
 export const Container = styled.header`
-    max-width: 1120px;
-    margin: 50px auto;
+    height: 95vh;
 
     color: var(--blue-dark);
+    background: linear-gradient(90deg, #fcfcfc 67%, #3C3C60 33%);
+
+    &.dark{background: linear-gradient(90deg, #fcfcfc 67%, #A360C2 33%);}
 
     h1, h2{
         font-style: normal;
         font-weight: 700;
-        font-size: 40px;
+        font-size: 4rem;
     }
 
     .line{
@@ -28,91 +30,44 @@ export const Container = styled.header`
 `;
 
 export const Content = styled.div`
+    @keyframes float{
+        0%{top:110%}
+        25%{top:140%}
+        50%{top:110%}
+        75%{top:140%}
+        100%{top:110%}
+    }
 
     padding: 5rem 1rem 5rem;
     display: flex;
     gap: 2rem;
 
-`;
-
-
-export const Pictures = styled.div`
-    padding: 100px;
-    border-radius: 50%;
-    background: #a360c254;
-
-    img{
-        width: 150px;
-        height: 150px;
-        border: #a360c254 solid 3.5px;
-
-        border-radius: 50%;
-        position: relative;
+    #blob{
+        width: 50vw;
+        height: 50vh;
+        z-index: 999;
+        position: absolute;
+        margin-left: 40vw;
+        animation: 10s ease-in-out 0s infinite alternate float;
     }
 
-    #profile{
-        bottom: 100px;
-        z-index: 4;
-    }
-
-    #BG1{
-        bottom: 280px;
-        right: 200px;
-        z-index: 1;
-    }
-
-    #BG2{
-        bottom: 330px;
-        right: 80px;
-        z-index: 1;
-    }
-
-    #SF1{
-        bottom: 30px;
-        right: 10px;
-        z-index: 2;
-    }
-
-    #SF2{
-        right: 80px;
-        bottom: 130px;
-        z-index: 3;
-    }
-
-    #SK1{
-        bottom: 140px;
-        right: -30px;
-        z-index: 2;
-    }
-
-    #SK2{
-        bottom: 50px;
-        right: 250px;
-        z-index: 1;
-    }
-
-    #TP1{
-        bottom: 200px;
-        left: -150px;
-        z-index: 2;
-    }
-
-    #TP2{
-        bottom: 340px;
-        left: -30px;
-        z-index: 2;
-    }
 `;
 
 export const Presentation = styled.div`
-    text-align: center;
-
-    margin-top: 200px;
+    margin-top: 3vh;
     margin-left: 50px;
 
     h2{
         margin-bottom: 10px;
+        color: var(--purple-light);
+        &.dark{ color: var(--blue-dark); }
     }
+
+    b{
+        color: var(--blue-dark);
+        &.dark{ color: var(--purple-light); }
+    }
+
     
     p{
         width: 350px;
@@ -120,7 +75,6 @@ export const Presentation = styled.div`
         text-align: left;
         
         &.dark{
-            background: #ffffffcf;
             border-radius: 50px;
             margin-bottom: 30px;
             vertical-align: middle;

@@ -1,9 +1,10 @@
 import styled from "styled-components"
 
-
 export const Container = styled.header`
     background: var(--purple-light);
-    height: 80px;
+    height: 10vh;
+    position: sticky; top: 0;
+    z-index: 99999;
 
     &.dark{
         background: var(--blue-light);
@@ -16,8 +17,8 @@ export const Content = styled.div`
 
     padding: 2rem 1rem 0rem;
     display: flex;
-    
-
+    align-items: center;
+    justify-content: center;
 
     a{
         color: var(--white);
@@ -31,7 +32,7 @@ export const Content = styled.div`
     }
 
     button{
-        height: 1.5rem;
+        height: 3vh;
         border-radius: 0.5rem;
         background: var(--white);
         border: 0;
@@ -42,12 +43,12 @@ export const Content = styled.div`
         font-weight: 700;
     }
     #darkmode{
-            background-color: var(--blue-dark);
             color: var(--white);
             margin-left: auto;
-
-            &.dark{
-                background-color: var(--purple-light);
+            
+            svg{
+                height: 30px;
+                width: 30px;
             }
     }
 
