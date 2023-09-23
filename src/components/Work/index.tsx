@@ -97,7 +97,7 @@ export function Work() {
         </>
 
     return (
-        <Container>
+        <Container id="Projects">
             <ImageArea>
                 {projectDescriptions}
             </ImageArea>

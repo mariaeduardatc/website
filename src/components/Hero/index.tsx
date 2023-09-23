@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect'
 
 export function Hero(){
     return(
-        <Container id="#Hero">
+        <Container>
             <Content>
                 <h1>Hi, I'm&nbsp; <Typewriter
                         options={{
