@@ -7,12 +7,19 @@ export const Container = styled.header`
     color: var(--blue-dark);
     background: linear-gradient(90deg, #fcfcfc 67%, #3C3C60 33%);
 
-    &.dark{background: linear-gradient(90deg, #fcfcfc 67%, #A360C2 33%);}
+    &.dark{
+        background: linear-gradient(90deg, #3C3C60 67%, #A360C2 33%);
+        color: white;
+    }
 
     h1, h2{
         font-style: normal;
         font-weight: 700;
         font-size: 4rem;
+
+        &.dark{
+        color: white;
+    }
     }
 
     .line{
@@ -60,7 +67,7 @@ export const Presentation = styled.div`
     h2{
         margin-bottom: 10px;
         color: var(--purple-light);
-        &.dark{ color: var(--blue-dark); }
+        &.dark{ color: white; }
     }
 
     b{
@@ -73,15 +80,6 @@ export const Presentation = styled.div`
         width: 350px;
         height: 250px;
         text-align: left;
-        
-        &.dark{
-            border-radius: 50px;
-            margin-bottom: 30px;
-            vertical-align: middle;
-            padding: 25px;
-
-            color: var(--blue-dark);
-        }
     }
 
     button{

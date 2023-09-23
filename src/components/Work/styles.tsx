@@ -11,15 +11,20 @@ export const Container = styled.div`
 export const ImageArea = styled.div`
     width: 30vw;
 
+    &.dark{
+        color: white;
+    }
+
 
     #general-descriptions{
         display: flex;
         gap: 5rem;
     }
 
+
     #general{
         h1{
-            border-bottom: solid;
+            border-bottom: solid var(--blue-dark);
             margin-bottom: 2vh;
             font-family: 'Inconsolata', monospace;
             font-weight: 700;
@@ -30,6 +35,10 @@ export const ImageArea = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;
+        &.dark{
+        color: white;
+    }
+        
         img{
             width: 30vw;
             height: 30vh;
@@ -43,14 +52,15 @@ export const ImageArea = styled.div`
         display: flex;
         flex-direction: column;
         gap: 1vh;
-        
+        &.dark{
+        color: white;
+    }
 
         h4, b{
             font-family: 'Inconsolata', monospace;
             font-weight: 700;
         }
     }
-
 `
 
 export const WorkList = styled.div`
@@ -70,8 +80,12 @@ export const WorkList = styled.div`
     .project{
         display: flex;
         justify-content: space-between;
-        border-bottom: solid black;
+        border-bottom: solid var(--blue-dark);
         padding: 30px;
         color: var(--blue-dark);
+        &.dark{
+            color: white;
+            border-color: white;
+        }
     }
 `
